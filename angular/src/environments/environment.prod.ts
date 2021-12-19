@@ -1,4 +1,4 @@
 export const environment = {
-  baseUrl: "https://stormy-sea-91711.herokuapp.com",
+  baseUrl: "https://john-social-media.herokuapp.com",
   production: true,
 };
