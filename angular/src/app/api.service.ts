@@ -130,7 +130,7 @@ export class ApiService {
             method: "POST"
         }
         
-        return new Promise((resolve, reject) => {
+        return new Promise<void>((resolve, reject) => {
             this.makeRequest(requestObject).then((val) => {
                 if(val.statusCode == 201) {
                     this.events.resetMessageNotificationsEvent.emit();
